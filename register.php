@@ -28,8 +28,8 @@
         <label>Подтверждение пароля</label>
         <input type="password" name="password_confirm" placeholder="Подтвердите пароль">
         <button type="submit">Войти</button>
-        <p>
-            У вас уже есть аккаунт? - <a href="/">авторизируйтесь</a>!
+        <p class="massage-under">
+            У вас уже есть аккаунт? - <a href="/">Авторизация</a>
         </p>
         <?php
             if ($_SESSION['message']) {

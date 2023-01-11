@@ -21,8 +21,8 @@ if ($_SESSION['user']) {
         <label>Пароль</label>
         <input type="password" name="password" placeholder="Введите пароль">
         <button type="submit">Войти</button>
-        <p>
-            У вас нет аккаунта? - <a href="/register.php">зарегистрируйтесь</a>!
+        <p class="massage-under">
+            У вас нет аккаунта? - <a href="/register.php">Регистрация</a>
         </p>
         <?php
             if ($_SESSION['message']) {
